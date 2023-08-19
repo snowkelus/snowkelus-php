@@ -1,0 +1,36 @@
+{
+  "name": "snowkelus-php",
+  "description": "Company-based PHP Runtime for Snowkelus",
+  "version": "0.1.9",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "keywords": [
+    "vercel",
+	"snowkelus",
+	"runtime",
+	"php",
+	"builder",
+	"company"
+  ],
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc",
+    "test": "jest --silent",
+    "test-watch": "jest --watch",
+    "prepublishOnly": "tsc"
+  },
+  "files": [
+    "dist",
+    "conf"
+  ],
+  "dependencies": {
+    "@libphp/amazon-linux-2-v82": "latest"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "^18.15.10",
+    "@vercel/build-utils": "^6.5.0",
+    "jest": "^29.5.0",
+    "typescript": "^5.0.2"
+  }
+}
