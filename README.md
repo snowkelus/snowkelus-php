@@ -9,7 +9,7 @@
 
 ## Changes and Developments:
 
-* Server Port is changed from Port 8080 or 80 to 1337
+* Server Port is changed from Port 8000 to 1337
 * Up to date NodeJS Compatibility for CI (Continuous Integration)
 * I will bother to add Custom LibPHP
 
