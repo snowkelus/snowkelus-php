@@ -6,6 +6,7 @@
 
 * 0.1.9 (Old Version)..
 * 0.2.0 (Latest Version)..
+* 0.2.1 (Soon)..
 
 #### Changes and Developments:
 
